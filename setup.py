@@ -198,7 +198,7 @@ if __name__ == "__main__":
         long_description_content_type="text/x-rst",
         ext_modules=ext_modules,
         cmdclass={"build_ext": CMakeBuildExtension, "bdist_wheel": TimedBdist},
-        python_requires=">=3.8, <3.13",
+        python_requires=">=3.8, <3.14",
         classifiers=[
             "Programming Language :: Python :: 3.8",
             "Programming Language :: Python :: 3.9",
